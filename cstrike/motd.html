@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <style type="text/css">
-      body {
-        font-family: Verdana, Tahoma;
-        color: #FFB000;
-        background: #000000;
-        margin-left: 8px;
-        margin-top: 0px;
-      }
 
-      .main {
-        text-align: center;
-      }
-      </style>
+<head>
+  <style type="text/css">
+    body {
+      font-family: Verdana, Tahoma;
+      color: #FFB000;
+      background: #000000;
+      margin-left: 8px;
+      margin-top: 0px;
+    }
 
-      <script>
-        function gifReceive(json) {
-          document.getElementById("giphy-image").src = json.data.image_original_url;
-        }
+    .main {
+      text-align: center;
+    }
+  </style>
 
-        function loadGiphy() {
-          element = document.createElement('script');
-          element.src = "https://api.giphy.com/v1/gifs/random?api_key=70f0ce6d3371478c95f0e1eea6fdcdda&tag=fail&rating=G&callback=gifReceive";
-          document.head.appendChild(element);
-        }
+  <script>
+    function gifReceive(json) {
+      document.getElementById("giphy-image").src = json.data.image_original_url;
+    }
 
-        document.addEventListener("DOMContentLoaded", loadGiphy);
-      </script>
-  </head>
-  <body>
-    <div class="main">
-      <h3>Welcome!</h3>
-      <img id="giphy-image">
-    </div>
-  </body>
+    function loadGiphy() {
+      element = document.createElement('script');
+      element.src = "https://api.giphy.com/v1/gifs/random?api_key=70f0ce6d3371478c95f0e1eea6fdcdda&tag=fail&rating=G&callback=gifReceive";
+      document.head.appendChild(element);
+    }
+
+    document.addEventListener("DOMContentLoaded", loadGiphy);
+  </script>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Welcome to HORIZON CS 1.6 server!</h1>
+    <img id="giphy-image">
+    <h3>PODBOTS:</h3>
+    setinfo _pbadminpw "your_password"
+    <br />
+    pb menu
+    <br />
+    <br />
+    <h3>AMX MOD</h3>
+    amxmodmenu
+  </div>
+</body>
+
 </html>
