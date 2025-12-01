@@ -20,5 +20,5 @@ services:
     environment:
       - RCON_PASSWORD=""
       - SV_PASSWORD=""
-      - MAXPLAYERS="16"
+      - MAXPLAYERS="24"
       - MAPNAME="de_dust2"
