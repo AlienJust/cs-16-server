@@ -27,6 +27,25 @@
       document.head.appendChild(element);
     }
 
+    function copyText0() {
+      var copyText = document.getElementById("myInput0");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); // For mobile devices
+      navigator.clipboard.writeText(copyText.value);
+    }
+    function copyText1() {
+      var copyText = document.getElementById("myInput1");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); // For mobile devices
+      navigator.clipboard.writeText(copyText.value);
+    }
+    function copyText2() {
+      var copyText = document.getElementById("myInput2");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); // For mobile devices
+      navigator.clipboard.writeText(copyText.value);
+    }
+
     document.addEventListener("DOMContentLoaded", loadGiphy);
   </script>
 </head>
@@ -35,14 +54,23 @@
   <div class="main">
     <h1>Welcome to HORIZON DURKA CS 1.6 server!</h1>
     <img id="giphy-image">
-    <h3>PODBOTS:</h3>
+    <h3>PODBOTS</h3>
     setinfo _pbadminpw "your_password"
     <br />
-    pb menu
+    <input type="text" value="setinfo _pbadminpw &quot;your_password&quot;" id="myInput0">
+    <button onclick="copyText0()">Copy</button>
+    <br />
+    bind "=" "pb menu"
+    <br />
+    <input type="text" value="bind &quot;=&quot; &quot;pb menu&quot;" id="myInput1">
+    <button onclick="copyText1()">Copy</button>
     <br />
     <br />
     <h3>AMX MOD</h3>
-    amxmodmenu
+    bind "f3" "amxmodmenu"
+    <br />
+    <input type="text" value="bind &quot;f3&quot; &quot;amxmodmenu&quot;" id="myInput2">
+    <button onclick="copyText2()">Copy</button>
   </div>
 </body>
 
