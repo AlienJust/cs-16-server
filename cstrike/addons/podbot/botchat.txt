@@ -26,6 +26,9 @@
 # Minimum Number is 1
 #
 [BOMBPLANT]
+Hoba!
+Kurwa!
+Shluhi!
 O net, opyat!
 Cas kak rvanet!
 V poslednij raz mne hvatilo 5 sekund na razminirovanie...
@@ -100,6 +103,7 @@ Menya ne ostanovit!
 # !!Minimum Number is 9!!
 #
 [DEADCHAT]
+Grob grob kladbische pidor
 Eti durni menya besyat
 Y dumayu, pora smenit kartu ?
 A, eti svolochi!
@@ -393,7 +397,7 @@ I hate these stupid comments, %s!
 Does anybody know how to do the Gauss-jump?
 ZZZZZZZzzzzzz
 Wazzzzuuuuuuup?
-I´m so booooored... 
+Iï¿½m so booooored... 
 Have you got ICQ, %s?
 It's damn slow today...
 OMG you're weird!
