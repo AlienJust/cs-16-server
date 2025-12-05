@@ -1,8 +1,8 @@
 ; Define the cycle that maps will loop through
 
-;fy_pool_day
-;aim_ak-colt
-;fy_iceworld
+fy_pool_day
+aim_ak-colt
+fy_iceworld
 de_dust2
 de_dust
 cs_assault
