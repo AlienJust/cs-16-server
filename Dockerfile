@@ -4,7 +4,7 @@ LABEL maintainer="Daniel Pereira <daniel@garajau.com.br>"
 # Runtime settings
 ENV RCON_PASSWORD=""
 ENV SV_PASSWORD=""
-ENV MAXPLAYERS="12"
+ENV MAXPLAYERS="24"
 ENV MAPNAME="de_dust2"
 
 # Copy the files
