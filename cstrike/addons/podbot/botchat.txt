@@ -26,9 +26,10 @@
 # Minimum Number is 1
 #
 [BOMBPLANT]
-Hoba!
-Kurwa!
-Shluhi!
+Хоба!
+Курва!
+Шлюхи!
+Бляяя
 O net, opyat!
 Cas kak rvanet!
 V poslednij raz mne hvatilo 5 sekund na razminirovanie...
@@ -103,7 +104,9 @@ Menya ne ostanovit!
 # !!Minimum Number is 9!!
 #
 [DEADCHAT]
-Grob grob kladbische pidor
+Грёбаные макросы
+Мишаня читер
+Гроб гроб кладбище пидр
 Eti durni menya besyat
 Y dumayu, pora smenit kartu ?
 A, eti svolochi!
